@@ -35,6 +35,7 @@ iptables -A OUTPUT -p tcp --sport 53 -j ACCEPT
 iptables -A OUTPUT -p udp --sport 53 -j ACCEPT
 iptables -A OUTPUT -p udp --dport 53 -j ACCEPT
 iptables -A OUTPUT -p tcp --dport 53 -j ACCEPT
+iptables -A OUTPUT -p tcp -s localhost -j ACCEPT
 iptables -A OUTPUT -j DROP
 #mysql
 mysql -u root -proot << EOF
