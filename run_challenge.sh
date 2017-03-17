@@ -1,7 +1,7 @@
 sudo useradd challenge
 echo "challenge:bb064b23223dff9b805313cdafc355acc64f1642" | chpasswd
 #get ownership of file to specific user
-echo "let Us start from the Begining. Find a user that is the owner of the cryptic crypt.txt file, #so you can read it. Capstone project may help you solve this." >> stage1.txt
+echo "let Us start from the Begining. Find a user that is the owner of the cryptic crypt.txt file, so you can read it. Capstone project may help you solve this. Also, What Augustus knew about ciphers?" >> stage1.txt
 chmod 444 stage1.txt
 echo "Znoy cgy g rozzrk ngxjkx. Lux tuc, vuxz zu znk uazyojk cuxrj.lotj gt uvkt vuxz gtj yktj g vgiqkz znxuamn oz. Eua ynuarj ykgxin lux tkc iraky ut znk Otzkxtkz uxmgtofgzout." >> crypt.txt
 chown challenge crypt.txt
